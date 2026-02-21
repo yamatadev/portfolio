@@ -49,8 +49,10 @@ export function About() {
               Developer with a{" "}
               <span className="italic text-neutral-400">founder&apos;s mindset</span>
             </h2>
-            <div className="space-y-5 text-neutral-600 leading-relaxed">
-              <p className="text-lg">{portfolio.about.intro}</p>
+            <div className="space-y-5 text-neutral-700 dark:text-neutral-300 leading-relaxed">
+              <p className="text-lg text-neutral-900 dark:text-neutral-100">
+                {portfolio.about.intro}
+              </p>
               <p>{portfolio.about.story}</p>
               <p>{portfolio.about.closing}</p>
             </div>

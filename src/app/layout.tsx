@@ -28,6 +28,10 @@ export const metadata: Metadata = {
     type: "website",
   },
   metadataBase: new URL("https://renanpaes.dev"),
+  icons: {
+  icon: "/favicon.ico",
+  apple: "/apple-touch-icon.png",
+},
 };
 
 export default function RootLayout({
