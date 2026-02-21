@@ -34,7 +34,7 @@ export function Navbar() {
             href="#hero"
             className="text-lg font-bold tracking-tight text-neutral-100"
           >
-            rp<span className="text-white/25">.</span>
+            RP<span className="text-white/25">.</span>
           </a>
 
           {/* Desktop */}
