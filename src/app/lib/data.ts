@@ -68,7 +68,7 @@ export const portfolio = {
       description:
         "Full-stack analytics platform for managing content creators — tracking revenue, audience growth, and performance across multiple platforms. Built from real-world experience running a creator agency.",
       tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "JWT Auth", "Recharts"],
-      live: "https://creator-dashboard-xxx.vercel.app", // TROCAR pela URL real
+      live: "https://creator-dashboard-x99.vercel.app", 
       github: "https://github.com/yamatadev/creator-dashboard",
       gradient: "from-blue-600 to-violet-600",
     },
@@ -77,7 +77,7 @@ export const portfolio = {
       description:
         "Job aggregation platform that scrapes remote developer positions from multiple sources, manages application pipelines, and generates AI-powered cover letters.",
       tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "OpenAI", "Web Scraping"],
-      live: "https://job-tracker-xxx.vercel.app", // TROCAR pela URL real
+      live: "https://job-tracker-sepia-six.vercel.app/", 
       github: "https://github.com/yamatadev/job-tracker",
       gradient: "from-emerald-600 to-cyan-600",
     },
