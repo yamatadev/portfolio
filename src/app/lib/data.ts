@@ -68,7 +68,7 @@ export const portfolio = {
       description:
         "Full-stack analytics platform for managing content creators — tracking revenue, audience growth, and performance across multiple platforms. Built from real-world experience running a creator agency.",
       tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "JWT Auth", "Recharts"],
-      live: "https://creator-dashboard-x99.vercel.app", 
+      live: "https://creator-dashboard-x99.vercel.app",
       github: "https://github.com/yamatadev/creator-dashboard",
       gradient: "from-blue-600 to-violet-600",
     },
@@ -77,18 +77,18 @@ export const portfolio = {
       description:
         "Job aggregation platform that scrapes remote developer positions from multiple sources, manages application pipelines, and generates AI-powered cover letters.",
       tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "OpenAI", "Web Scraping"],
-      live: "https://job-tracker-sepia-six.vercel.app/", 
+      live: "https://job-tracker-sepia-six.vercel.app/",
       github: "https://github.com/yamatadev/job-tracker",
       gradient: "from-emerald-600 to-cyan-600",
     },
     {
-    title: "Rival Job Assessment",
-    description:
-    "Project built for Job Assessment on Rival",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma"],
-    live: "https://rival-assessment-2nmo.vercel.app/",
-    github: "https://github.com/yamatadev/rival-assessment",
-    gradient: "from-red-600 to-blue-600",
+      title: "Rival Job Assessment",
+      description:
+        "Production-ready secure blog platform with JWT authentication, protected dashboard, public blog URLs, and a paginated public feed (newest first). Includes owner-only CRUD, unique slugs, DTO validation, optimized Prisma queries to avoid N+1, plus like & comment system with DB constraints and secure error handling.",
+      tech: ["Next.js", "TypeScript", "NestJS", "PostgreSQL", "Prisma", "JWT", "bcrypt"],
+      live: "https://rival-assessment-2mm0.vercel.app/",
+      github: "https://github.com/yamatadev/rival-assessment",
+      gradient: "from-red-600 to-blue-600",
     },
   ],
 
