@@ -68,7 +68,7 @@ export const portfolio = {
       description:
         "Full-stack analytics platform for managing content creators — tracking revenue, audience growth, and performance across multiple platforms. Built from real-world experience running a creator agency.",
       tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "JWT Auth", "Recharts"],
-      live: "https://creator-dashboard-x99.vercel.app", 
+      live: "https://creator-dashboard-x99.vercel.app",
       github: "https://github.com/yamatadev/creator-dashboard",
       gradient: "from-blue-600 to-violet-600",
     },
@@ -77,17 +77,25 @@ export const portfolio = {
       description:
         "Job aggregation platform that scrapes remote developer positions from multiple sources, manages application pipelines, and generates AI-powered cover letters.",
       tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "OpenAI", "Web Scraping"],
-      live: "https://job-tracker-sepia-six.vercel.app/", 
+      live: "https://job-tracker-sepia-six.vercel.app/",
       github: "https://github.com/yamatadev/job-tracker",
       gradient: "from-emerald-600 to-cyan-600",
     },
+    title: "Rival Job Assessment",
+    description:
+    "Project built for Job Assessment on Rival",
+    tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "OpenAI"],
+    live: "https://rival-assessment-2nmo.vercel.app/",
+    github: "https://github.com/yamatadev/job-assessment",
+    gradient: "from-emerald-600 to-cyan-600",
+    },
   ],
 
-  skills: {
-    Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
+skills: {
+  Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
     Backend: ["Node.js", "PHP", "REST APIs", "Express", "Prisma"],
-    Database: ["PostgreSQL", "MySQL", "SQL"],
-    "DevOps & Tools": ["Docker", "Git", "Linux", "Vercel", "CI/CD"],
-    Business: ["Product Strategy", "Team Leadership", "KPI Dashboards", "Growth & Sales"],
+      Database: ["PostgreSQL", "MySQL", "SQL"],
+        "DevOps & Tools": ["Docker", "Git", "Linux", "Vercel", "CI/CD"],
+          Business: ["Product Strategy", "Team Leadership", "KPI Dashboards", "Growth & Sales"],
   },
 };
