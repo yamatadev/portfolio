@@ -85,9 +85,9 @@ export const portfolio = {
     title: "Rival Job Assessment",
     description:
     "Project built for Job Assessment on Rival",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "OpenAI"],
+    tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma"],
     live: "https://rival-assessment-2nmo.vercel.app/",
-    github: "https://github.com/yamatadev/job-assessment",
+    github: "https://github.com/yamatadev/rival-assessment",
     gradient: "from-red-600 to-blue-600",
     },
   ],
