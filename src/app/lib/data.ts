@@ -90,13 +90,24 @@ export const portfolio = {
       github: "https://github.com/yamatadev/rival-assessment",
       gradient: "from-red-600 to-blue-600",
     },
+⏺ {
+  title: "ImobScan",
+    description:
+  "Automated real estate monitor that scrapes OLX listings, tracks price changes, and delivers instant alerts via e - mail and Telegram.",               
+  tech: ["Next.js", "TypeScript", "Playwright", "PostgreSQL", "Prisma",
+    "NextAuth.js", "Tailwind CSS", "node-cron"],
+    live: "",
+      github: "",
+        gradient: "from-emerald-400 to-teal-600",
+  },
+
   ],
 
-  skills: {
-    Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
+skills: {
+  Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
     Backend: ["Node.js", "PHP", "REST APIs", "Express", "Prisma"],
-    Database: ["PostgreSQL", "MySQL", "SQL"],
-    "DevOps & Tools": ["Docker", "Git", "Linux", "Vercel", "CI/CD"],
-    Business: ["Product Strategy", "Team Leadership", "KPI Dashboards", "Growth & Sales"],
+      Database: ["PostgreSQL", "MySQL", "SQL"],
+        "DevOps & Tools": ["Docker", "Git", "Linux", "Vercel", "CI/CD"],
+          Business: ["Product Strategy", "Team Leadership", "KPI Dashboards", "Growth & Sales"],
   },
 };
