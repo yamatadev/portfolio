@@ -90,7 +90,7 @@ export const portfolio = {
       github: "https://github.com/yamatadev/rival-assessment",
       gradient: "from-red-600 to-blue-600",
     },
-⏺ {
+ {
   title: "ImobScan",
     description:
   "Automated real estate monitor that scrapes OLX listings, tracks price changes, and delivers instant alerts via e - mail and Telegram.",
