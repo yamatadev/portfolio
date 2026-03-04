@@ -93,12 +93,12 @@ export const portfolio = {
 ⏺ {
   title: "ImobScan",
     description:
-  "Automated real estate monitor that scrapes OLX listings, tracks price changes, and delivers instant alerts via e - mail and Telegram.",               
-  tech: ["Next.js", "TypeScript", "Playwright", "PostgreSQL", "Prisma",
-    "NextAuth.js", "Tailwind CSS", "node-cron"],
-    live: "",
-      github: "",
-        gradient: "from-emerald-400 to-teal-600",
+  "Automated real estate monitor that scrapes OLX listings, tracks price changes, and delivers instant alerts via e - mail and Telegram.",
+    tech: ["Next.js", "TypeScript", "Playwright", "PostgreSQL", "Prisma",
+      "NextAuth.js", "Tailwind CSS", "node-cron"],
+      live: "not yet",
+        github: "https://github.com/yamatadev/imobscan",
+          gradient: "from-emerald-400 to-teal-600",
   },
 
   ],
