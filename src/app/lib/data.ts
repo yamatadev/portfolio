@@ -90,24 +90,38 @@ export const portfolio = {
       github: "https://github.com/yamatadev/rival-assessment",
       gradient: "from-red-600 to-blue-600",
     },
- {
-  title: "ImobScan",
-    description:
-  "Automated real estate monitor that scrapes OLX listings, tracks price changes, and delivers instant alerts via e - mail and Telegram.",
-    tech: ["Next.js", "TypeScript", "Playwright", "PostgreSQL", "Prisma",
-      "NextAuth.js", "Tailwind CSS", "node-cron"],
+    {
+      title: "ImobScan",
+      description:
+        "Automated real estate monitor that scrapes OLX listings, tracks price changes, and delivers instant alerts via e - mail and Telegram.",
+      tech: ["Next.js", "TypeScript", "Playwright", "PostgreSQL", "Prisma",
+        "NextAuth.js", "Tailwind CSS", "node-cron"],
       live: "not yet",
-        github: "https://github.com/yamatadev/imobscan",
-          gradient: "from-emerald-400 to-teal-600",
-  },
+      github: "https://github.com/yamatadev/imobscan",
+      gradient: "from-emerald-400 to-teal-600",
+    },
+
+    {
+      title: "MailSense",
+      description:
+        "AI-powered corporate email triage system. Classifies emails as productive or unproductive using a custom NLP pipeline (tokenization → stopwords → RSLP stemming) combined with Claude AI. Supports free text, single file, batch upload (20x), and live Gmail IMAP integration. Returns classification, confidence score, priority level, key topics, and an auto-generated suggested reply. Fully bilingual (PT-BR / EN-US) with language-aware AI responses.",
+      tech: [
+        "FastAPI", "Python", "Claude AI (Haiku)", "NLTK", "RSLP",
+        "React", "Vite", "Tailwind CSS",
+        "Gmail IMAP", "Render", "Vercel"
+      ],
+      live: "https://email-classifier-flame.vercel.app/",
+      github: "https://github.com/yamatadev/email-classifier",
+      gradient: "from-emerald-500 to-blue-600",
+    },
 
   ],
 
-skills: {
-  Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
+  skills: {
+    Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
     Backend: ["Node.js", "PHP", "REST APIs", "Express", "Prisma"],
-      Database: ["PostgreSQL", "MySQL", "SQL"],
-        "DevOps & Tools": ["Docker", "Git", "Linux", "Vercel", "CI/CD"],
-          Business: ["Product Strategy", "Team Leadership", "KPI Dashboards", "Growth & Sales"],
+    Database: ["PostgreSQL", "MySQL", "SQL"],
+    "DevOps & Tools": ["Docker", "Git", "Linux", "Vercel", "CI/CD"],
+    Business: ["Product Strategy", "Team Leadership", "KPI Dashboards", "Growth & Sales"],
   },
 };
