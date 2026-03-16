@@ -86,7 +86,7 @@ export const portfolio = {
       description:
         "Production-ready secure blog platform with JWT authentication, protected dashboard, public blog URLs, and a paginated public feed (newest first). Includes owner-only CRUD, unique slugs, DTO validation, optimized Prisma queries to avoid N+1, plus like & comment system with DB constraints and secure error handling.",
       tech: ["Next.js", "TypeScript", "NestJS", "PostgreSQL", "Prisma", "JWT", "bcrypt"],
-      live: "https://rival-assessment-2mm0.vercel.app/",
+      live: "https://rival-assessment-2nmo.vercel.app/feed",
       github: "https://github.com/yamatadev/rival-assessment",
       gradient: "from-red-600 to-blue-600",
     },
