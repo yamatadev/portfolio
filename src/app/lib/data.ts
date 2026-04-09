@@ -75,11 +75,9 @@ export const portfolio = {
     {
       title: "TechFlow",
       description:
-        "AI-powered job search copilot for remote developers. Aggregates openings from multiple ATS   
-  sources, tracks the full application pipeline, and generates tailored cover letters in seconds — so  
-  you apply to more jobs, faster, and with better fit.",
-    tech: ["Next.js 15", "React 19", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS", "Stripe",
-        "Groq AI"],
+        "AI-powered job search copilot for remote developers. Aggregates openings from multiple ATS sources, tracks the full application pipeline, and generates tailored cover letters in seconds — so you apply to more jobs, faster, and with better fit.",
+      tech: ["Next.js 15", "React 19", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS", "Stripe",
+        "Claude AI"],
       live: "https://usetechflow.com",
       gradient: "from-emerald-500 to-teal-600",
     },
