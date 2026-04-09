@@ -73,13 +73,15 @@ export const portfolio = {
       gradient: "from-blue-600 to-violet-600",
     },
     {
-      title: "TechFlow - AI Job Tracking",
+      title: "TechFlow",
       description:
-        "Job aggregation platform that scrapes remote developer positions from multiple sources, manages application pipelines, and generates AI-powered cover letters.",
-      tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "OpenAI", "Web Scraping"],
+        "AI-powered job search copilot for remote developers. Aggregates openings from multiple ATS   
+  sources, tracks the full application pipeline, and generates tailored cover letters in seconds — so  
+  you apply to more jobs, faster, and with better fit.",
+    tech: ["Next.js 15", "React 19", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS", "Stripe",
+        "Groq AI"],
       live: "https://usetechflow.com",
-      // github: "https://github.com/yamatadev/job-tracker",
-      gradient: "from-emerald-600 to-cyan-600",
+      gradient: "from-emerald-500 to-teal-600",
     },
     {
       title: "Rival Job Assessment",
@@ -113,6 +115,21 @@ export const portfolio = {
       live: "https://email-classifier-flame.vercel.app/",
       github: "https://github.com/yamatadev/email-classifier",
       gradient: "from-emerald-500 to-blue-600",
+    },
+    {
+      title: "ShiftMind",
+      description:
+        "AI-powered workforce scheduling system for senior care facilities, built as a production- ready demo for Sunrise Senior Living.Features a weekly shift calendar with morning / afternoon / night slots, worker CRUD with multi - select availability filtering across 8 roles(RN, CNA, Med Tech, etc.), and gap detection against staffing templates for weekday / weekend / holiday.Includes Aria, a conversational AI assistant powered by Claude with 10 specialized tool_use functions(auto- fill, gap filling, shift assignment, template adjustment) that manages the schedule through natural language.Auto - fill uses a weighted scoring algorithm balancing fairness(50 %), full - time preference(30 %), and seniority (20 %).",
+      tech: [
+        "React 19", "TypeScript", "Vite 6", "Tailwind CSS v4",
+        "Express 5", "Node.js",
+        "SQLite (better-sqlite3)", "Drizzle ORM",
+        "Claude AI (Sonnet)", "Anthropic SDK (tool_use)",
+        "React Router v7", "Vercel"
+      ],
+      live: "https://shift-mind-client.vercel.app/",
+      github: "https://github.com/yamatadev/shift-mind",
+      gradient: "from-emerald-600 to-teal-700",
     },
 
   ],
