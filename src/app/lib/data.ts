@@ -73,12 +73,12 @@ export const portfolio = {
       gradient: "from-blue-600 to-violet-600",
     },
     {
-      title: "Remote Job Tracker",
+      title: "TechFlow - AI Job Tracking",
       description:
         "Job aggregation platform that scrapes remote developer positions from multiple sources, manages application pipelines, and generates AI-powered cover letters.",
       tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "OpenAI", "Web Scraping"],
-      live: "https://job-tracker-sepia-six.vercel.app/",
-      github: "https://github.com/yamatadev/job-tracker",
+      live: "https://usetechflow.com",
+      // github: "https://github.com/yamatadev/job-tracker",
       gradient: "from-emerald-600 to-cyan-600",
     },
     {
